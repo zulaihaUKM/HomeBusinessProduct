@@ -3,5 +3,6 @@ Home business is a business whose primary office is within their home regardless
 ## About Project
 
 ## Data Relation
-
+The figure of data relationship of collected data is shown as in 
+* ***stores*** - ***product*** Table
 ## To Upload sql File Into Xampp/Laragon
