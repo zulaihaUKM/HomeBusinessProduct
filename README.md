@@ -3,6 +3,6 @@ Home business is a business whose primary office is within their home regardless
 ## About Project
 
 ## Data Relation
-The figure of data relationship of collected data is shown as in 
+The figure of data relationship of collected data is shown as in the file attached, named 'Shopee Product Table Relationship.png'. Below are the explanations regarding the relationship between each table:
 * ***stores*** - ***product*** Table
 ## To Upload sql File Into Xampp/Laragon
