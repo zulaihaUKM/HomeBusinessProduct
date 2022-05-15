@@ -69,5 +69,7 @@ Home business is a business whose primary office is within their home regardless
 > product reviews table :
 ## Data Relation
 The figure of data relationship of collected data is shown as in the file attached, named 'Shopee Product Table Relationship.png'. Below are the explanations regarding the relationship between each table:
-* ***stores*** - ***product*** Table
+> Relation of ***stores*** - ***product*** Table
+ - Each registered product on Shopee should be owned by one and only one store. However, a store could registers one or more product on Shopee.
+ - Thus, the relation of ***stores*** and ***product*** table is 'one:one to one:many'
 ## To Upload sql File Into Xampp/Laragon
