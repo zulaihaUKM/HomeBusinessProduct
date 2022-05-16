@@ -51,21 +51,24 @@ A total of 14,328 home-business based products on Shopee were compiled into an s
 - value : value of each attribute (ie: 1 pack/ 12 months/ 150g)
 - created at : date of product attribute created
 - updated at : date of changes made on product attribute
-> product models table :
-- id : unique number for each product attribute
-- product id : unique number of product
-- name :
-- price : 
-- stock :
-- price before discount : 
-- extinfo : extra information / description about product
-- created at : 
-- updated at : 
-> product variations table :
+> product variations table : list of variations available for each product
 - id : unique number for each product variation
 - product id : unique number of product
-- name : 
-- options : 
+- name : name of product variation (ie: size/ flavour)
+- options : list of product variation (ie: small,medium,big / original,sweet,spicy)
+- images: link of product image
+- created_at: date of product variation created
+- updated_at: date of changes made on the product
+> product models table : detailed information about each product variation
+- id : unique number for each product model
+- product id : unique number of product
+- name : name of a variation in a product (ie: 3x spicy)
+- price : price of the product
+- stock : number of stock available
+- price before discount :  price of the product before discount is applied
+- extinfo : extra information / description about the product model (ie: 
+- created at : 
+- updated at :  
 > product ratings table :
 > product reviews table :
 ## Data Relation
