@@ -66,10 +66,14 @@ A total of 14,328 home-business based products on Shopee were compiled into an s
 - price : price of the product
 - stock : number of stock available
 - price before discount :  price of the product before discount is applied
-- extinfo : extra information / description about the product model (ie: 
-- created at : 
-- updated at :  
-> product ratings table :
+- extinfo : extra information / description about the product model (ie: type: 3x spicy, weight: 150g)
+- created at : date of product model created
+- updated at :  date of changes made on product model
+> product ratings table : information of product rating made by customer
+- id: unique number of each product rating
+- product id: unique number of product
+- rating total: total number of rating given to product
+- rating with context: number of rating that has feedback written by customer
 > product reviews table :
 ## Data Relation
 The figure of data relationship of collected data is shown as in the file attached, named 'Shopee Product Table Relationship.png'. Below are the explanations regarding the relationship between each table:
