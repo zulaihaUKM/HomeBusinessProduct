@@ -96,7 +96,12 @@ A total of 14,328 home-business based products on Shopee were compiled into an s
 - updated at: date of changes made on product review
 ## Data Relation
 The figure of data relationship of collected data is shown as in the file attached, named 'Shopee Product Table Relationship.png'. Below are the explanations regarding the relationship between each table:
-> Relation of ***stores*** - ***product*** Table
- - Each registered product on Shopee should be owned by one and only one store. However, a store could registers one or more product on Shopee.
- - Thus, the relation of ***stores*** and ***product*** table is 'one:one to one:many'
+> Relation Between ***stores*** and ***products*** Tables
+ - Each registered product on Shopee should be owned by one and only one store. However, a store could registers one or more product on Shopee. Thus, the relationship between ***stores*** and ***products*** table are one-to-one(1:1) and one-to-many(1:M).
+> Relation Between ***products*** and ***product_attributes*** Tables
+> Relation Between ***products*** and ***product_models*** Tables
+> Relation Between ***products*** and ***product_variations*** Tables
+> Relation Between ***products*** and ***product_ratings*** Tables
+> Relation Between ***products*** and ***product_reviews*** Tables
+> Relation Between ***product_ratings*** and ***product_reviews*** Tables
 ## To Upload sql File Into Xampp/Laragon
