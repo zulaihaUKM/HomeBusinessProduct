@@ -41,14 +41,14 @@ A total of 14,328 home-business based products on Shopee were compiled into an s
 - image : link of product image
 - videos : link of product video
 - category : category of product sold (ie: processed food/ clothes/ electronic)
-- shop location : state of shop located
+- shop location : state of shop location
 - created at : date of product post created
 - updated at : date of product information updated
-> product attributes table : information of attribute in each product
+> product attributes table : information of attributes in each product
 - id : unique number for each product attribute
 - product id : unique number of product
-- name : name of product attribute
-- value : value of each attribute
+- name : name of product attribute (ie: pack size/ shell life/ weight)
+- value : value of each attribute (ie: 1 pack/ 12 months/ 150g)
 - created at : date of product attribute created
 - updated at : date of changes made on product attribute
 > product models table :
