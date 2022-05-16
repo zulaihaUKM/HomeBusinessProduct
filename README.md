@@ -74,7 +74,26 @@ A total of 14,328 home-business based products on Shopee were compiled into an s
 - product id: unique number of product
 - rating total: total number of rating given to product
 - rating with context: number of rating that has feedback written by customer
-> product reviews table :
+- rating with image: total number of images attached in product rating by customers
+- rating with media: total number of images and videos attached in product rating by customers
+- ratings: total number for each rate (ie: {"all": 3, "1": 0, "2": 0, "3": 0, "4": 0, "5": 3} <br> means that there are 3 ratings in total, no one rating for 1-4 stars, and 3 person have rate for 5 stars)
+- created at: date of first rating made
+- updated at: date of changes made on product rating
+> product reviews table : information of product review made by customers after giving product rating
+- id: unique number for each review made
+- product id: unique number for each product
+- product rating id: unique number of product rating
+- username: username of customer account on Shopee
+- comment: feedback/ comment made by customers regarding purchased product
+- profile picture: link of image of customer profile picture
+- images: link of image attached within the product review
+- rating star: star rating given by customer
+- rating: differentiate between bad or good rating (0 for bad and normal rating, and 1 for good rating)
+- region: country code of product region
+- videos: link of video attached in product review
+- reply: product review reply from seller
+- created at: date of product review created
+- updated at: date of changes made on product review
 ## Data Relation
 The figure of data relationship of collected data is shown as in the file attached, named 'Shopee Product Table Relationship.png'. Below are the explanations regarding the relationship between each table:
 > Relation of ***stores*** - ***product*** Table
