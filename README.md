@@ -99,7 +99,9 @@ The figure of data relationship of collected data is shown as in the file attach
 > Relation Between ***stores*** and ***products*** Tables
  - Each registered product on Shopee should be owned by one and only one store. However, a store could registers one or more product on Shopee. Thus, the relationship between ***stores*** and ***products*** table are one-to-one(1:1) and one-to-many(1:M).
 > Relation Between ***products*** and ***product_attributes*** Tables
+- Each product must have at least one attribute like its weight, country of origin, expiry date, size, and etc for product description. A product could also have more than one attribute described by seller on Shopee. This makes the relationship between ***products*** and ***product_attributes*** becomes one-to-one (1:1) and one-to-many(1:M) relation.
 > Relation Between ***products*** and ***product_models*** Tables
+- 
 > Relation Between ***products*** and ***product_variations*** Tables
 > Relation Between ***products*** and ***product_ratings*** Tables
 > Relation Between ***products*** and ***product_reviews*** Tables
