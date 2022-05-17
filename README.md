@@ -111,3 +111,18 @@ The figure of data relationship of collected data is shown as in the file attach
 > Relation Between ***product_ratings*** and ***product_reviews*** Tables
 - Each product review should have one and only one product_rating_id. For customer, it is a-must to give a product rating before leaving a review. However, customer can choose either to write a product review or not when giving rate. Therefore, not all product ratings will have review written. The relationship between ***product_ratings*** and ***product_reviews*** tables is one-to-zero-or-one (1:1) relationship.
 ## To Upload sql File Into Xampp/Laragon
+### Using Xampp
+1. Make sure you have Xampp installed in your computer. To install Xampp, you can click the link here: https://www.apachefriends.org/download.html .
+2. Open Xampp then, run the Apache and MySQL.
+3. Click 'Admin' button on MySQL module to open your phpMyAdmin.
+4. Create a new database using any prefered name. (Do not create any table inside the database yet)
+5. Go to 'Import' menu and choose the SQL file to be imported.
+6. Next, click 'Go' button at the bottom-right of the page. 
+7. The process of importing the file may took a while as the file has a large size. You can view the data once the importing process is done.
+### Using Laragon
+1. Make sure you have Laragon installed in your computer. To install Laragon, you can click the link here: https://laragon.org/download/index.html .
+2. Open Laragon and click the 'Start All' button.
+3. Next, open the Database on Laragon.
+4. Right-click on the left tab which consist of database list and click 'create new database' option.
+5. Name the database with any prefered name.
+6. On the new database, click the 'folder' icon on menu tab to load sql file.
